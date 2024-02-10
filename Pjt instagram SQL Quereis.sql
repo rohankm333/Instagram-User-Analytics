@@ -3,7 +3,7 @@ select *from users order by created_at desc limit 5;      -- #Q1- 5 oldest users
 
 
 
-select * from users where id not in (select user_id from photos) ; --#Q2- Identify users who have never posted a single photo on Instagram.
+select * from users where id not in (select user_id from photos) ; --#Q2- Identify users who have never posted a single photo on .
 
 
 
